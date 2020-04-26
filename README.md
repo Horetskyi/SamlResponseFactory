@@ -1,6 +1,9 @@
 # SamlResponseFactory
 Generates SAML Response with signed Assertion
 
+## Nuget
+https://www.nuget.org/packages/SamlResponseFactory/1.0.0
+
 ## Usage example
 ```
 SamlResponseFactoryService.CreateSamlResponse(new SamlResponseFactoryArgs
