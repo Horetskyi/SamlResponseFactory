@@ -20,4 +20,7 @@ SamlResponseFactoryService.CreateSamlResponse(new SamlResponseFactoryArgs
 More info here: https://medium.com/@horetskiy.d.s.7/7bb1b29e08a1
 
 ## 
-This library totally depends on https://github.com/i8beef/SAML2. I create some workarounds in this library on top of the SAML2 library. Because this library goal is just to force the SAML2 library to work for single need, single method - `SamlResponseFactoryService.CreateSamlResponse(Args)`
+This library depends on https://github.com/i8beef/SAML2. I create some workarounds in this library on top of the SAML2 library. This library goal is to force the SAML2 library to work for a single need, a single method - `SamlResponseFactoryService.CreateSamlResponse(Args)`
+
+## Remark
+This solution is far from a clean one. But it is coping with the task good enough.
